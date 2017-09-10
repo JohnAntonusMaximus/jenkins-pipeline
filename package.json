@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-pipeline",
+  "version": "1.0.0",
+  "description": "Continuous integration pipeline using Jenkins for GCP",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnAntonusMaximus/jenkins-pipeline.git"
+  },
+  "keywords": [
+    "jenkins",
+    "pipeline"
+  ],
+  "author": "John Radosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnAntonusMaximus/jenkins-pipeline/issues"
+  },
+  "homepage": "https://github.com/JohnAntonusMaximus/jenkins-pipeline#readme",
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  },
+  "dependencies": {
+    "express": "3.12.0"
+  }
+}
